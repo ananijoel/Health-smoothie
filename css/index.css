@@ -242,10 +242,14 @@ footer{
     /*border: 1px solid white;*/
     margin: 10px;
 }
-.footernav.address a {
+.footernav a {
     text-decoration: none;
     color: white;
     font-size: 25px ;
+    padding: 5px;
+}
+.footernav a:hover{
+    color: rgb(118, 255, 64);
 }
 .footernav.address img{
     height: 30px;
@@ -278,6 +282,19 @@ footer{
 }
 .footernavbody div a{
     margin: 0 10px;
+}
+
+.footernav.social .footernavbody {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Définit 4 colonnes de largeur égale */
+    grid-gap: 20px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.footernav.social img {
+    margin: 10px;
+    height: 40px;
 }
 
 .copyright{
