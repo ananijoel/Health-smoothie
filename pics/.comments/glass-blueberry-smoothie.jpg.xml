@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comment version="3.0">
+  <caption>A glass of blueberry smoothie</caption>
+  <note>A glass of blueberry smoothie</note>
+  <place/>
+  <categories>
+    <category value="smoothie"/>
+    <category value="blueberry"/>
+    <category value="drink"/>
+    <category value="fruit"/>
+    <category value="freshness"/>
+    <category value="yogurt"/>
+    <category value="organic"/>
+    <category value="milk"/>
+    <category value="beverage"/>
+    <category value="healthy"/>
+    <category value="milkshake"/>
+    <category value="berry"/>
+    <category value="breakfast"/>
+    <category value="diet"/>
+    <category value="food"/>
+    <category value="fresh"/>
+    <category value="summer"/>
+    <category value="sweet"/>
+    <category value="refreshment"/>
+    <category value="shake"/>
+    <category value="juice"/>
+    <category value="cocktail"/>
+    <category value="glass"/>
+    <category value="juicy"/>
+  </categories>
+</comment>
