@@ -406,10 +406,10 @@ footer{
         height:70%;
     }
     .spectitle{
-        font-size: 30px;
+        font-size: 25px;
     }
     .specdescription{
-        font-size: 20px;
+        font-size: 18px;
     }
     .subContainer.three h1{
         font-size: 30px;
@@ -426,8 +426,8 @@ footer{
         height: 100vh;
     }
     .image{
-        height: 200px;
-        width: 150px;
+        height: 180px;
+        width: 130px;
         border-radius: 15px;
         padding: 0;
         margin: 0;
@@ -446,6 +446,9 @@ footer{
         align-items: center;
         justify-content: center;
     }
+    .testimonialtext{
+        font-size: 25px;
+    }
     .guy{
         width: 80px;
         height: 80px;
@@ -459,7 +462,7 @@ footer{
         font-size: 5px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         padding: 0;
         margin: 0;
@@ -479,12 +482,13 @@ footer{
     }
     .footernavbody{
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
     .footernav.social .footernavbody {
         display: flex;
         flex-direction: row;
+        
+        justify-content: center;
         width: 100vw;
         height: 33%;
     }
