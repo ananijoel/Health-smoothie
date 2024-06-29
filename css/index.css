@@ -347,6 +347,7 @@ footer{
 
     body{
         overflow-x: hidden;
+        width: 100vw;
     }
     header{
         justify-content: center;
@@ -386,13 +387,10 @@ footer{
     .subContainer.two hr{
         display: none;
     }
-    .spec{
-        margin: 0;
-        padding: 0;
-        width: 100vw;
-    }
     .section{
         width: 100%;
+        margin: 0;
+        padding: 0;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -401,5 +399,105 @@ footer{
     .section.two{
         display: none;
     }
-
+    .spec{
+        margin:  10px 0;
+        padding: 0;
+        width: 70%;
+        height:70%;
+    }
+    .spectitle{
+        font-size: 30px;
+    }
+    .specdescription{
+        font-size: 20px;
+    }
+    .subContainer.three h1{
+        font-size: 30px;
+        color: black;
+    }
+    .drinkscontainer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-gap: 20px;
+        padding: 0;
+        margin: ;
+        overflow: auto;
+        width: fit-content;
+        height: 100vh;
+    }
+    .image{
+        height: 200px;
+        width: 150px;
+        border-radius: 15px;
+        padding: 0;
+        margin: 0;
+        background-image: url("../pics/glass-blueberry-smoothie.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .subContainer.four h1{
+        font-size: 40px;
+        margin: 50px 0 0 0 ;
+    }
+    .witness{
+        width: 100VW;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .guy{
+        width: 80px;
+        height: 80px;
+        padding: 10px;
+        margin: 0;
+    }
+    footer{
+        font-size: 5px;
+    }
+    .footernavs{
+        font-size: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    .footernav{
+        font-size: 5px;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 33%;
+    }
+    .footernavtitle{
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footernavbody{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .footernav.social .footernavbody {
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        height: 33%;
+    }
+    .footernavbody a{
+        font-size: 15px;
+        margin: 0 5px;
+    }
+    .footernavbody a img {
+        height: 20px;
+        width: 20px;
+    }
+    
+    .copyright{
+        font-size: 15px;
+    }
 }
