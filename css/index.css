@@ -72,7 +72,7 @@ header{
     font-weight: 2000;
     font-style: normal;
 }
-.slide{
+.subContaier{
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -80,7 +80,7 @@ header{
 
     
 }
-.slide.one{
+.subContaier.one{
     display: flex;
     align-items: center;
     background-image: url("../pics/mango-smoothies.jpg");
@@ -136,7 +136,7 @@ header{
 .shopButton:hover {
   background: #00bd68;
 }
-.slide.two{
+.subContaier.two{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -161,7 +161,7 @@ header{
     font-size: 20px;
 }
 
-.slide.three{
+.subContaier.three{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -169,14 +169,14 @@ header{
     background-color: #ffffff;
 }
 
-.slide.four{
+.subContaier.four{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     background-color: #f4f4f4;
 }
-.slide h1{
+.subContaier h1{
     font-size: 70px;
     color: black;
 }
@@ -197,7 +197,7 @@ header{
     align-items: center;
     justify-content: space-evenly;
 }
-.jusContainer{
+.drinkscontainer{
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* Définit 4 colonnes de largeur égale */
     grid-gap: 45px 30px;
