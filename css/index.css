@@ -421,7 +421,7 @@ footer{
         grid-gap: 20px;
         padding: 0;
         margin: ;
-        overflow: auto;
+        overflow: hidden;
         width: fit-content;
         height: 100vh;
     }
