@@ -79,6 +79,7 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
+    overflow: hidden;
 
     
 }
@@ -203,22 +204,24 @@ header{
 .drinkscontainer{
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
-    grid-gap: 45px 30px;
+    grid-gap: 15px 30px;
     align-items: center;
     justify-content: space-evenly;
     max-height: 100vh;
     padding: 70px 0;
-    overflow: auto;
+    overflow: hidden;
     width: fit-content;
 }
 .image{
     height: 340px;
-    width: 270px;
+    width: 260px;
     border-radius: 15px;
     padding: 20px 20px 40px 20px ;
-    background-image: url("../pics/glass-blueberry-smoothie.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+}
+.drinkscontainer img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
 }
 /*---------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------*/
@@ -355,6 +358,9 @@ footer{
     .logo{
         font-size: 20px;
     }
+    .subContainer{
+        overflow: hidden;
+    }
     .subContainer.one{
         display: flex;
         align-items: center;
@@ -420,10 +426,10 @@ footer{
         grid-template-columns: repeat(2, 1fr); 
         grid-gap: 20px;
         padding: 0;
-        margin: ;
+        margin: 0;
         overflow: hidden;
         width: fit-content;
-        height: 100vh;
+        height: fit-content;
     }
     .image{
         height: 180px;
