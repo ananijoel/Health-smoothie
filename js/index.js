@@ -1,10 +1,10 @@
 var guys = document.querySelectorAll('.guy');
 var testimonialtext = document.querySelector('.testimonialtext');
 var testimonials = {
-    one: "Les smoothies sont incroyablement frais et délicieux. Ils sont parfaits pour un boost d'énergie naturel!",
-    two: "Les jus sont remplis de saveurs authentiques. Un excellent choix pour une pause santé!",
-    three: "J'adore la variété de smoothies offerts. Chacun d'eux est un pur régal pour les papilles!",
-    four: "Les jus sont d'une qualité exceptionnelle. Idéal pour se rafraîchir et se revitaliser en même temps!"
+    one: "Les smoothies sont incroyablement frais et délicieux. Ils sont parfaits pour un boost d'énergie naturel! -Ame Oceane Codja",
+    two: "Les jus sont remplis de saveurs authentiques. Un excellent choix pour une pause santé! -Jerry wisdom ajavon",
+    three: "J'adore la variété de smoothies offerts. Chacun d'eux est un pur régal pour les papilles! -",
+    four: "Les jus sont d'une qualité exceptionnelle. Idéal pour se rafraîchir et se revitaliser en même temps! - Rock Katako"
 };
 
 guys.forEach(guy => {
