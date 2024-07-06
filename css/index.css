@@ -178,6 +178,7 @@ header{
     align-items: center;
     justify-content: space-evenly;
     background-color: #ffffff;
+    height: fit-content;
 }
 
 .subContainer h1{
@@ -416,6 +417,9 @@ footer{
     }
     .specdescription{
         font-size: 18px;
+    }
+    .subContainer.three{
+        height: fit-content;
     }
     .subContainer.three h1{
         font-size: 30px;
