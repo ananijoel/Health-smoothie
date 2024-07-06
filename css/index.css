@@ -178,6 +178,7 @@ header{
     align-items: center;
     justify-content: space-evenly;
     background-color: #ffffff;
+    height: fit-content;
 }
 
 .subContainer h1{
